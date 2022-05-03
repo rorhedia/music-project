@@ -56,6 +56,7 @@ class Auth {
     async compare( text, hash ) {
         return await bcrypt.compare( text, hash );
     }
+
 }
 
 module.exports = Auth;
